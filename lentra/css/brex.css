@@ -1,0 +1,85 @@
+.button3,.button4{
+  width: 200px;
+  padding:14px;
+}
+
+.lms-left{
+  float: left;
+}
+.lms-right{
+  float: right;
+}
+
+.overflow{
+  overflow: auto;
+}
+
+.list-dots{
+  list-style-type: none;
+  
+}
+#feat-adv .button3 ,#feat-adv .button4{
+  width:240px;
+}
+
+.accordian ul{
+  padding-left:20px;
+}
+
+#how-works-section .lms-right .icon {
+  width:70px;
+  height: 70px;
+}
+
+#how-works-section .col4{
+  justify-content: center;
+}
+
+#lobs .icon-acc{
+  padding:0;
+}
+
+#brex-tech .icon-acc{
+  margin: 0;
+}
+
+.mbx-graph{
+  margin-left: 4%;
+}
+
+
+
+@media (max-width:992px){
+  .lms-right{
+    padding-left: 0;
+  }
+  #brex-tech .icon-acc{
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width:600px){
+  #lobs .col4{
+    width:50%
+  }
+}
+
+
+
+@media (min-width:992px){
+  #lobs .accordian-content{
+    display: block;
+  }
+}
+
+#lobs .lobs-accordian{
+  margin-top:-1px;
+}
+
+
+@media (min-width:992px) and (max-width:1200px){
+  #lobs .tab button {
+    padding: 35px
+  }
+}
